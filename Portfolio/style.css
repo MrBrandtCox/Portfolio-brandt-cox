@@ -1,3 +1,62 @@
-root::after{
-    -- :;
+*{
+
 }
+
+:root{
+    --:;
+    --:;
+}
+
+html{
+    min-width:100%;
+}
+
+body{
+    min-width: 100%;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height:;
+    position:;
+    padding:;
+    margin:;
+    text-align:;
+    align-items:;
+    justify-content:;
+    background-color: #B0C4DE;
+}
+
+header h1{
+
+}
+
+nav{
+    font-size:;
+    font-family:;
+    display:;
+    flex-direction:;
+    flex-wrap:;
+    padding:;
+    background-color:;
+}
+
+nav a{
+    padding:;
+    color:;
+}
+
+nav a:hover{
+
+}
+
+#my-work{
+    display:;
+    justify-content:;
+    background-color:;
+    color:;
+    padding:;
+    border:;
+}
+
