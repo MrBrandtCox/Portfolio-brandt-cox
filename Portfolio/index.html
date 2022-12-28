@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta name="author" content="Brandt Cox">
         <meta name="description" content="Portfolio">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio--Brandt-Cox</title>
         <link rel="stylesheet" href="./assets.css/reset.css"/>
-        <link rel="stylesheet" href="./assets.css/style.css"/>
+        <link rel="stylesheet" href="style.css"/>
+        <!--??  <link rel="stylesheet" href="./assets.css/style.css"/> ??-->
     </head>
 
     <body>
         <header>
+            <!--<img src="file:///Users/brandtcox/Desktop/Portfolio-brandt-cox/Portfolio/assets/PXL_20221204_204256881_2%202.jpg" alt="Image of Brandt Cox"/>-->
             <h1>Brandt Cox</h1>
             <!--Nav bar directory in header-->
             <nav>
@@ -20,12 +22,12 @@
                 <a href="#contact">Contact</a>
             </nav>
         </header>
+        
 
         <main>
             <section id="about-me">
                 <h2>About Me</h2>
-                <!--img tag not working-->
-                <img src="file:///Users/brandtcox/Desktop/Portfolio-brandt-cox/Portfolio/assets/PXL_20221204_204256881_2%202.jpg" alt="Image of Brandt Cox"/>
+                <img id="profile-img" src="file:///Users/brandtcox/Desktop/Portfolio-brandt-cox/Portfolio/assets/PXL_20221204_204256881_2%202.jpg" alt="Image of Brandt Cox"/>
                  <p>
                     Hi I’m Brandt! I’m 23 years old, and I’m originally from Louisiana but was raised in St. George, Utah. I currently reside in Salt Lake City. I’ve been making my way through the medical field and recently came to know how much more I enjoy software development! I started by taking courses through <a href="https://www.codecademy.com/">Codecademy</a> in April 2022 and I’m currently enrolled in the <a href="https://bootcamps.continue.utah.edu/">University of Utah Full-stack Web Development Bootcamp</a>. 
                 </p>
@@ -36,23 +38,29 @@
                 <h2>My Work</h2>
                 <!--First project should be the largest-->
                 <section id="my-work-container">
-                    <a href="">
+                    <a href="https://user-images.githubusercontent.com/103869234/206628962-8e8b59ca-c909-4c7e-8a9b-17244984afcd.png" class="challenge-1-card" title="Horiseon website image">
                         <h3>Bootcamp Refactor Challenge</h3>
                         <p></p>
-                    </a>
-                    <span>
-                        <a href="">
-                            <h3>Project Placeholder</h3>
+                    </a> <!--POSSIBLY REARRANGE BELOW add titles to empty cards-->
+                    <span class="card-column-1">
+                        <a href="https://i.pinimg.com/736x/40/bf/50/40bf5022f099e7030c11e17e50f4b3da.jpg" class="future-project-card" title="stock">
+                            <h3>(Project Placeholder)</h3>
                             <p></p>
                         </a>
-                        <a href="">
-                            <h3>Project Placeholder</h3>
+                        <a href="https://i.pinimg.com/736x/40/bf/50/40bf5022f099e7030c11e17e50f4b3da.jpg" class="future-project-card" title="stock">
+                            <h3>(Project Placeholder)</h3>
                             <p></p>
                         </a>
-                        <a href="">
-                            <h3>Project Placeholder</h3>
+                    <span class="card-column-2">    
+                        <a href="https://i.pinimg.com/736x/40/bf/50/40bf5022f099e7030c11e17e50f4b3da.jpg" class="future-project-card" title="stock">
+                            <h3>(Project Placeholder)</h3>
                             <p></p>
                         </a>
+                        <a href="https://i.pinimg.com/736x/40/bf/50/40bf5022f099e7030c11e17e50f4b3da.jpg" class="future-project-card" title="stock">
+                            <h3>(Project Placeholder)</h3>
+                            <p></p>
+                        </a>
+                    </span>    
                     </span>
                 </section>
             </section>

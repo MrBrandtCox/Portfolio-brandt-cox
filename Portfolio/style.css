@@ -1,62 +1,231 @@
+/* Add more font-families in list*/
 *{
-
+    font-family: copperplate, monospace, sans-serif;
 }
+
 
 :root{
-    --:;
-    --:;
+    --link-color: black;
+    --alt-link-color: white;
 }
+
 
 html{
     min-width:100%;
 }
 
-body{
-    min-width: 100%;
+h1{ /*header h1*/
+    font-size: 70px;
+    color: black;
+    justify-content: flex-start;
+    margin: 10px 300px 0px 20px;
+    text-shadow: 0px 0px 5px #fff;
+}
+h2{
+    font-size: 35px;
+    text-shadow: 0px 0px 5px #fff;
 }
 
+h3{
+    font-size: 20px;
+}
+
+body{ /* work on background image */
+    display: flex; 
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #C46D74;
+} 
+
+
+/* Header Section--- needs fixing with margin, padding including header nav*/
 header{
     display: flex;
     width: 100%;
-    height:;
-    position:;
-    padding:;
-    margin:;
-    text-align:;
-    align-items:;
-    justify-content:;
-    background-color: #B0C4DE;
+    height: 100px;
+    margin: 30 30px 50px 30px;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
 }
 
-header h1{
 
+header nav{
+    padding: 50px;
 }
+
 
 nav{
-    font-size:;
-    font-family:;
-    display:;
-    flex-direction:;
-    flex-wrap:;
-    padding:;
+    display: flex;
+    flex-direction: column; /* Unsure if I want column or row*/
+    flex-wrap: wrap;
+    margin-top: 40px;
     background-color:;
 }
 
+
 nav a{
-    padding:;
-    color:;
+    padding:15px;
+    color: var(--alt-link-color);
+    text-decoration: none;
+    margin-right: 55px;
+    font-size: 30px;
 }
+
 
 nav a:hover{
-
+    color: var(--link-color);
+    text-shadow: 0px 0px 5px #fff;
 }
 
+
+
+
+/* About me section--- possibly add more info in about me p*/
+#about-me{
+    display: flex;
+    padding-top: 180px;
+    margin: 0px 0px 80px 20px;
+}
+
+/* Profile img*/
+#profile-img{
+    height: 200px;
+    width: 170px;
+    margin-left: 60px;
+    border: 2px solid;
+    box-shadow: 0px 0px 5px #fff;
+}
+
+#about-me p{
+    line-height: 32px;
+    font-size: 25px;
+    margin: 20px 100px 60px 100px;
+    color: black;
+}
+
+#about-me a{
+    text-decoration: none;
+    color: white;
+}
+
+#about-me a:hover{
+    color: black;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+
+
+
+/* My work section */
 #my-work{
-    display:;
+    display: flex;
     justify-content:;
     background-color:;
     color:;
     padding:;
-    border:;
+    margin: 0px 0px 80px 20px;
 }
 
+
+#my-work-container{
+    display: flex;
+    flex-flow: wrap row;
+    padding:2px;
+    justify-content: center;
+}
+
+#my-work-container h3{
+    padding:;
+    margin: 5px;
+    color: var(--alt-link-color);
+    text-align: center;
+}
+
+#my-work a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#my-work a:hover{
+    color: ;
+}
+
+.challenge-1-card{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 500px;
+    margin-left: 250px;
+    border: 2px solid black;
+}
+
+.card-column-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    width: 200px;
+    margin: 5px;
+}
+
+.card-column-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    width: 200px;
+    margin: 5px;
+}
+
+
+
+/* My work images */
+.challenge-1-card{
+    background-image: url(https://user-images.githubusercontent.com/103869234/206628962-8e8b59ca-c909-4c7e-8a9b-17244984afcd.png);
+    height: 300px;
+    width: 400px;
+    padding:;
+    box-shadow: 0px 0px 5px #fff;
+}
+
+.future-project-card{
+    background-image: url(https://i.pinimg.com/736x/40/bf/50/40bf5022f099e7030c11e17e50f4b3da.jpg);
+    height: 250px;
+    width: 250px;
+    padding: 5px; 
+    box-shadow: 0px 0px 5px #fff;
+}
+
+
+
+/* Contact me section*/
+#contact{
+    margin: 200px 0px 100px 20px;
+}
+
+address a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 0px 100px 180px;
+    font-size: 20px;
+}
+
+address a:hover{
+    color: var(--link-color);
+    text-shadow: 0px 0px 5px #fff;
+}
+
+address p{
+    margin-left: 180px;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* Play around with color themes to see what looks the best*/
+/* hover focus-- :focus? */
+/* "active" and "focus" */
+
+/* write media queries and reset.css*/
