@@ -20,7 +20,7 @@ h1{ /*header h1*/
     font-size: 70px;
     color: black;
     justify-content: center;
-    padding: 0px 300px 0px 70px;
+    padding: 70px 300px 0px 120px;
     filter: drop-shadow(1px 5px 1px #D2D3D4);
 }
 
@@ -56,7 +56,7 @@ header{
     display: flex;
     height: 200px;
     width: 160px;
-    margin: 100px 0px 0px 50px;
+    margin: 100px 0px 0px 160px;
     border: 2px solid;
     border-radius: 50px;
     filter: drop-shadow(1px 5px 1px #D2D3D4);
@@ -152,15 +152,16 @@ nav a button:hover{
 #my-work-container{
     display: flex;
     flex-flow: wrap row;
-    padding:50px;
+    padding: 50px;
     justify-content: center;
 }
 /*Trying to get the images to fit inside of their container.*/
 
 #my-work-container h3{
-    padding:;
+    height: 15px;
     padding: 10px;
     color: var(--alt-link-color);
+    background-color: aliceblue;
     text-align: start; /*text align not working*/
 }
 
@@ -172,6 +173,7 @@ nav a button:hover{
 
 #my-work a:hover{
     color: white; /*not working*/
+    border-color: #3A77FD;
 }
 
 .challenge-1-card{
@@ -180,11 +182,13 @@ nav a button:hover{
     background-image: url(https://user-images.githubusercontent.com/103869234/206628962-8e8b59ca-c909-4c7e-8a9b-17244984afcd.png);
     background-size: cover;
     background-position: center;
-    height: 400px;
-    width: 500px;
-    padding: 0px 20px 10px 0px;
-    border: 2px solid black;
+    height: 500px;
+    width: 900px;
+    padding: 10px 20px 10px 20px;
+    margin-right: 170px;
+    border: 3px solid black;
     border-radius: 30px;
+    filter: drop-shadow(4px 7px 1px #D2D3D4);
 }
 
 .card-column-1{
@@ -192,7 +196,7 @@ nav a button:hover{
     flex-direction: column;
     height: 400px;
     width: 300px;
-    padding: 0px;
+    padding: 50px;
 }
 
 /* Split the card columns in html and fix in css*/
@@ -210,24 +214,26 @@ nav a button:hover{
     height: 150px;
     width: 150px;
     padding: 150px; 
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 30px;
     box-shadow: 0px 0px 5px #fff;
     background-size: cover;
     background-position: center;
+    filter: drop-shadow(4px 7px 1px #D2D3D4);
 }
 
 
 
 /* Contact me section*/
 #contact{
-    padding: 200px 200px 50px 50px;
+    padding: 300px 200px 50px 50px;
+    margin-top: 250px;
     display: flex;
 }
 
 #contact h2{
-    padding: 10px 120px 50px 0px;
-    margin-left: 300px;
+    padding-right: 120px;
+    margin: 15px 0px 0px 300px;
     text-align: center;
     display: block; /*text align and display block appear not to work*/
     filter: drop-shadow(1px 5px 1px #D2D3D4);
@@ -235,7 +241,7 @@ nav a button:hover{
 
 address p{
     display: flex;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     font-size: 25px;
     color: var(--link-color);
 }
@@ -244,13 +250,13 @@ address a{
     display: flex;
     text-decoration: none;
     color: var(--alt-link-color);
-    padding: 0px 50px 50px 0px;
+    padding: 0px 50px 30px 0px;
     font-size: 25px;
 }
 
 address a:hover{
     color: var(--link-color);
-    text-shadow: 0px 0px 5px #fff;
+    filter: drop-shadow(1px 5px 1px #D2D3D4);
 }
 
 /* Make my contact links buttons*/
