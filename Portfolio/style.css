@@ -1,40 +1,42 @@
 /* Add more font-families in list*/
 *{
-    font-family: copperplate, monospace, sans-serif;
+    font-family: 'Comfortaa', 'Courier', 'Andale Mono', 'Gill Sans', 'monospace', 'sans-serif', 'serif';
 }
 
 
 :root{
     --link-color: black;
-    --alt-link-color: white;
+    --alt-link-color: #3A77FD ;
 }
 
 
 html{
     min-width:100%;
+    min-height: 100%;
 }
 
 h1{ /*header h1*/
+    font-family: 'monospace';
     font-size: 70px;
     color: black;
-    justify-content: flex-start;
-    margin: 10px 300px 0px 20px;
-    text-shadow: 0px 0px 5px #fff;
+    justify-content: center;
+    padding: 0px 300px 0px 70px;
+    filter: drop-shadow(1px 5px 1px #D2D3D4);
 }
-h2{
+
+h2{ /* align h2 elements to be centered above sections*/
     font-size: 35px;
-    text-shadow: 0px 0px 5px #fff;
 }
 
 h3{
-    font-size: 20px;
+    font-size: 23px;
 }
 
 body{ /* work on background image */
     display: flex; 
     min-width: 100%;
     min-height: 100%;
-    background-color: #C46D74;
+    background-color: aliceblue;
 } 
 
 
@@ -43,173 +45,207 @@ header{
     display: flex;
     width: 100%;
     height: 100px;
-    margin: 30 30px 50px 30px;
-    position: fixed;
+    padding: 70px 30px 50px 0px;
+    position: absolute;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-
-header nav{
-    padding: 50px;
+/* Profile img-delete alternate from assets folder when finished*/
+#profile-img{
+    display: flex;
+    height: 200px;
+    width: 160px;
+    margin: 100px 0px 0px 50px;
+    border: 2px solid;
+    border-radius: 50px;
+    filter: drop-shadow(1px 5px 1px #D2D3D4);
+    /*box-shadow: 0px 0px 5px #fff;*/
 }
 
 
 nav{
     display: flex;
-    flex-direction: column; /* Unsure if I want column or row*/
+    flex-direction: column; 
     flex-wrap: wrap;
-    margin-top: 40px;
-    background-color:;
+    position: fixed;
+    padding: 50px;
+    align-content: flex-end;
 }
 
 
 nav a{
     padding:15px;
-    color: var(--alt-link-color);
-    text-decoration: none;
-    margin-right: 55px;
-    font-size: 30px;
-}
-
-
-nav a:hover{
     color: var(--link-color);
-    text-shadow: 0px 0px 5px #fff;
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+button{
+    border-color: #3A77FD;
+    width: 170px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 22px;
+    background-color: white;
+    cursor: pointer;
+    filter: drop-shadow(1px 5px 1px #D2D3D4);
 }
 
 
+nav a button:hover{
+    color: var(--alt-link-color);
+}
 
 
 /* About me section--- possibly add more info in about me p*/
 #about-me{
     display: flex;
-    padding-top: 180px;
-    margin: 0px 0px 80px 20px;
+    padding: 500px 0px 0px 50px;
+    margin-bottom: 200px;
 }
 
-/* Profile img*/
-#profile-img{
-    height: 200px;
-    width: 170px;
-    margin-left: 60px;
-    border: 2px solid;
-    box-shadow: 0px 0px 5px #fff;
+#about-me h2{
+    padding: 10px 130px 0px 0px;
+    margin-left: 300px;
+    width: 200px;
+    text-align: center;
+    display: block; /*text align and display block appear not to work*/
+    filter: drop-shadow(1px 5px 1px #D2D3D4);
 }
 
 #about-me p{
-    line-height: 32px;
+    line-height: 50px;
     font-size: 25px;
-    margin: 20px 100px 60px 100px;
+    padding: 10px 380px 60px 20px;
     color: black;
 }
 
 #about-me a{
     text-decoration: none;
-    color: white;
+    color: var(--alt-link-color);
 }
 
 #about-me a:hover{
     color: black;
-    text-shadow: 0px 0px 5px #fff;
+    filter: drop-shadow(1px 5px 1px #D2D3D4);
 }
 
 
-
-
-/* My work section */
+/* My work section---fix link to direct to refactor website */
 #my-work{
     display: flex;
-    justify-content:;
     background-color:;
-    color:;
-    padding:;
-    margin: 0px 0px 80px 20px;
+    padding: 0px 0px 50px 50px;
 }
 
+#my-work h2{
+    padding: 10px 30px 0px 0px;
+    margin-left: 300px;
+    width: 200px;
+    text-align: center;
+    display: block; /*text align and display block appear not to work*/
+    filter: drop-shadow(1px 5px 1px #D2D3D4);
+}
 
 #my-work-container{
     display: flex;
     flex-flow: wrap row;
-    padding:2px;
+    padding:50px;
     justify-content: center;
 }
+/*Trying to get the images to fit inside of their container.*/
 
 #my-work-container h3{
     padding:;
-    margin: 5px;
+    padding: 10px;
     color: var(--alt-link-color);
-    text-align: center;
+    text-align: start; /*text align not working*/
 }
 
 #my-work a{
     text-decoration: none;
-    color: white;
+    color:;
 }
 
 
 #my-work a:hover{
-    color: ;
+    color: white; /*not working*/
 }
 
 .challenge-1-card{
     display: flex;
     flex-direction: row;
-    height: 300px;
+    background-image: url(https://user-images.githubusercontent.com/103869234/206628962-8e8b59ca-c909-4c7e-8a9b-17244984afcd.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
     width: 500px;
-    margin-left: 250px;
+    padding: 0px 20px 10px 0px;
     border: 2px solid black;
+    border-radius: 30px;
 }
 
 .card-column-1{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     height: 400px;
-    width: 200px;
-    margin: 5px;
+    width: 300px;
+    padding: 0px;
 }
 
+/* Split the card columns in html and fix in css*/
 .card-column-2{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     height: 400px;
-    width: 200px;
-    margin: 5px;
-}
-
-
-
-/* My work images */
-.challenge-1-card{
-    background-image: url(https://user-images.githubusercontent.com/103869234/206628962-8e8b59ca-c909-4c7e-8a9b-17244984afcd.png);
-    height: 300px;
-    width: 400px;
-    padding:;
-    box-shadow: 0px 0px 5px #fff;
+    width: 300px;
+    padding: 50px;
 }
 
 .future-project-card{
+    display: flex;
     background-image: url(https://i.pinimg.com/736x/40/bf/50/40bf5022f099e7030c11e17e50f4b3da.jpg);
-    height: 250px;
-    width: 250px;
-    padding: 5px; 
+    height: 150px;
+    width: 150px;
+    padding: 150px; 
+    border: 2px solid black;
+    border-radius: 30px;
     box-shadow: 0px 0px 5px #fff;
+    background-size: cover;
+    background-position: center;
 }
 
 
 
 /* Contact me section*/
 #contact{
-    margin: 200px 0px 100px 20px;
+    padding: 200px 200px 50px 50px;
+    display: flex;
+}
+
+#contact h2{
+    padding: 10px 120px 50px 0px;
+    margin-left: 300px;
+    text-align: center;
+    display: block; /*text align and display block appear not to work*/
+    filter: drop-shadow(1px 5px 1px #D2D3D4);
+}
+
+address p{
+    display: flex;
+    padding-bottom: 25px;
+    font-size: 25px;
+    color: var(--link-color);
 }
 
 address a{
+    display: flex;
     text-decoration: none;
-    color: white;
-    margin: 0px 0px 100px 180px;
-    font-size: 20px;
+    color: var(--alt-link-color);
+    padding: 0px 50px 50px 0px;
+    font-size: 25px;
 }
 
 address a:hover{
@@ -217,15 +253,7 @@ address a:hover{
     text-shadow: 0px 0px 5px #fff;
 }
 
-address p{
-    margin-left: 180px;
-    font-size: 20px;
-    color: white;
-}
-
-
-/* Play around with color themes to see what looks the best*/
-/* hover focus-- :focus? */
-/* "active" and "focus" */
-
+/* Make my contact links buttons*/
 /* write media queries and reset.css*/
+/*I could make the h2s as their own divs to style them to sit on top of their container*/
+/*Change the margins to paddings to better format the portfolio and for management.*/
