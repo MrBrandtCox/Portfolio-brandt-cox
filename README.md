@@ -16,7 +16,7 @@
 * WHEN I resize the page or view the site on various screens and devices THEN I am presented with a responsive layout that adapts to my viewport. 
 
 ## Mock-Up 
-[Portfolio Mock-Up Image]()
+![Portfolio Mock-Up Image](https://user-images.githubusercontent.com/103869234/213321027-6583df34-5b57-47e8-887b-ca26f53293a3.png)
 
 ## Live URL
 [Link to deployed application](https://mrbrandtcox.github.io/Portfolio-brandt-cox/)
