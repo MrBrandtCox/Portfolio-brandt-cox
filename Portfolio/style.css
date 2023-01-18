@@ -38,6 +38,7 @@ header{
     width: 100%;
     height: 200px;
     padding: 70px 30px 50px 0px;
+    margin: 0px auto;
     position: absolute;
     align-items: center;
     justify-content: center;
@@ -52,7 +53,7 @@ header h1{
     filter: drop-shadow(1px 5px 1px #D2D3D4);
 }
 
-/* Profile img-delete alternate from assets folder when finished*/
+
 #profile-img{
     display: flex;
     height: 200px;
@@ -63,7 +64,7 @@ header h1{
     filter: drop-shadow(1px 5px 1px #D2D3D4);
 }
 
-
+/* nav is separate from the header, for fixed position purpose*/
 nav{
     display: flex;
     flex-direction: column; 
@@ -277,7 +278,11 @@ address a button:hover{
     filter: drop-shadow(3px 8px 1px black);
 }
 
+
+
 /* Media Queries- screen adjustment*/
+/* struggling to fit x-axis on some widths*/
+
 @media screen and (max-width: 1800px) {
     button{
         background-color: #043052;
@@ -288,9 +293,42 @@ address a button:hover{
     }
 }
 
+
+/* My laptop width */
 @media screen and (max-width: 1200px) {
-    #
+    *{
+        width: 100%;
+    } 
+    #profile-img{
+        width: 400px;
+        margin-left: 400px;
+    }
+    #about-me p{
+        padding: 10px 50px 60px 20px;
+    }
+    .challenge-1-card{
+        width: 700px;
+        height: 400px;
+        margin-right: 200px;
+    }
+    .future-project-card{
+        width: 120px;
+        height: 50px;
+    }
+    .card-column-1{
+        margin-right: auto;
+    }
+    .card-column-2{
+        margin-left: 450px;
+    }
+    #contact a{
+        /*margin-right: 600px;*/
+        margin-left: 0px;
+    }
 }
+
+
+
 
 @media screen and (max-width: 1024px) {
     h1{
@@ -336,6 +374,7 @@ address a button:hover{
         margin: 0px 0px 20px 350px;
     }
 }
+
 
 
 
@@ -397,6 +436,8 @@ address a button:hover{
         flex-direction: column;
     }
 }
+
+
 
 @media screen and (max-width: 480px) {
     button{
