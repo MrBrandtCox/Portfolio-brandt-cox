@@ -178,6 +178,16 @@ nav a button:hover{
     text-align: start; /*text align not working*/
 }
 
+.challenge-3-card h3{
+    height: 44px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: aliceblue;
+    opacity: 0.8;
+    text-align: start; /*text align not working*/
+}
+
 .future-project-card h3{
     height: 44px;
     padding: 10px;
@@ -198,8 +208,7 @@ nav a button:hover{
 
 .challenge-1-card{
     display: flex;
-    background-image: url(https://github.com/J3rkStore/weatheringo/blob/main/images/SkyJam.png?raw=true);
-    flex-direction: row;
+    background-image: url(https://github.com/MasynNay/type-ninja/blob/main/public/images/demo3.png?raw=true);
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -250,6 +259,22 @@ nav a button:hover{
     filter: drop-shadow(10px 14px 1px #848484);
 }
 
+.challenge-3-card{
+    display: flex;
+    background-image: url(https://github.com/J3rkStore/weatheringo/blob/main/images/SkyJam.png?raw=true);
+    width: 150px;
+    padding: 150px; 
+    margin: 18px 20px 70px 20px;
+    border: 3px solid white;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(6px 10px 1px #CCCCCC);
+}
+
+.challenge-3-card:hover{
+    filter: drop-shadow(10px 14px 1px #848484);
+}
 .future-project-card{
     display: flex;
     background-image: url(https://i.pinimg.com/736x/40/bf/50/40bf5022f099e7030c11e17e50f4b3da.jpg);
