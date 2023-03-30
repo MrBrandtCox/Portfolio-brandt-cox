@@ -11,7 +11,6 @@
 
 html{
     min-width:100%;
-    
 }
 
 h2{ 
@@ -32,7 +31,8 @@ body{ /* work on background image */
 
 header{
     display: flex;
-    background-color: aliceblue;
+    background-image: url(https://media.istockphoto.com/id/1286354786/vector/dark-prism-textured-abstract-background.jpg?s=612x612&w=0&k=20&c=lJiYScAyV7Iqn5FKdxMYCuntLO0ljQkR_oEftweNjmE=);
+    background-size: cover;
     border: 1px solid black;
     filter: drop-shadow(1px 5px 1px #D2D3D4);
     width: 100%;
@@ -47,10 +47,9 @@ header{
 header h1{ 
     font-family: 'monospace';
     font-size: 70px;
-    color: black;
+    color: white;
     justify-content: center;
     padding: 0px 300px 0px 100px;
-    filter: drop-shadow(1px 5px 1px #D2D3D4);
 }
 
 
@@ -61,7 +60,7 @@ header h1{
     margin-left: 300px;
     border: 2px solid;
     border-radius: 50px;
-    filter: drop-shadow(1px 5px 1px #D2D3D4);
+    border-color: white;
 }
 
 /* nav is separate from the header, for fixed position purpose*/
@@ -222,6 +221,7 @@ nav a button:hover{
 
 .challenge-1-card:hover{
     filter: drop-shadow(10px 14px 1px #848484);
+    transform:scale(1.02);
 }
 
 .card-column-1{
@@ -257,6 +257,7 @@ nav a button:hover{
 
 .challenge-2-card:hover{
     filter: drop-shadow(10px 14px 1px #848484);
+    transform:scale(1.02);
 }
 
 .challenge-3-card{
@@ -274,6 +275,7 @@ nav a button:hover{
 
 .challenge-3-card:hover{
     filter: drop-shadow(10px 14px 1px #848484);
+    transform:scale(1.02);
 }
 .future-project-card{
     display: flex;
@@ -291,6 +293,7 @@ nav a button:hover{
 
 .future-project-card:hover{
     filter: drop-shadow(10px 14px 1px #848484);
+    transform:scale(1.02);
 }
 
 
