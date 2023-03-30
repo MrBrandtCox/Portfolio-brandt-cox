@@ -26,13 +26,13 @@ body{ /* work on background image */
     display: flex; 
     min-width: 100%;
     min-height: 100%;
-    background-color: aliceblue;
+    background-color: white;
 } 
 
 
 header{
     display: flex;
-    background-color: white;
+    background-color: aliceblue;
     border: 1px solid black;
     filter: drop-shadow(1px 5px 1px #D2D3D4);
     width: 100%;
@@ -57,7 +57,7 @@ header h1{
 #profile-img{
     display: flex;
     height: 200px;
-    width: 160px;
+    width: 200px;
     margin-left: 300px;
     border: 2px solid;
     border-radius: 50px;
@@ -90,15 +90,15 @@ button{
     border-radius: 15px;
     border-color: black;
     font-size: 22px;
-    background-color: white;
+    background-color: aliceblue;
     cursor: pointer;
-    filter: drop-shadow(1px 5px 1px #D2D3D4);
+    filter: drop-shadow(1px 5px 1px #595959);
 }
 
 
 nav a button:hover{
     color: var(--alt-link-color);
-    filter: drop-shadow(2px 8px 1px #686868);
+    filter: drop-shadow(2px 8px 1px black);
 }
 
 
@@ -300,14 +300,14 @@ nav a button:hover{
     padding: 40px 200px 200px 50px;
     margin-top: 250px;
     display: flex;
-    background-color: var(--alt-link-color);
+    background-color: aliceblue;
 }
 
 #contact h2{
-    color: aliceblue;
+    color: black;
     padding-right: 120px;
     margin: 15px 0px 0px 300px;
-    filter: drop-shadow(1px 5px 1px black);
+    filter: drop-shadow(1px 5px 1px rgb(110, 110, 110));
 }
 
 address a{
