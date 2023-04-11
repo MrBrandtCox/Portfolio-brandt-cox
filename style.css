@@ -187,7 +187,7 @@ nav a button:hover{
     text-align: start; /*text align not working*/
 }
 
-.future-project-card h3{
+.challenge-4-card h3{
     height: 44px;
     padding: 10px;
     border-radius: 10px;
@@ -195,6 +195,26 @@ nav a button:hover{
     background-color: aliceblue;
     opacity: 0.8;
     text-align: start; /*text align not working*/
+}
+
+.challenge-5-card h3{
+    height: 44px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: aliceblue;
+    opacity: 0.8;
+    text-align: start; /*text align not working*/
+}
+
+.future-project-card h3{
+    height: 44px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: aliceblue;
+    opacity: 0.8;
+    text-align: start; 
 }
 
 #my-work h3:hover{
@@ -277,6 +297,43 @@ nav a button:hover{
     filter: drop-shadow(10px 14px 1px #848484);
     transform:scale(1.02);
 }
+
+.challenge-4-card { 
+    display: flex; 
+    background-image: url(https://github.com/MrBrandtCox/My-Random-Password-Generator/blob/main/imgs/Screenshot2023-04-04at3.37.00PM.png?raw=true); 
+    width: 150px; 
+    padding: 150px; 
+    margin: 18px 20px 70px 20px; 
+    border: 3px solid white; 
+    border-radius: 30px; 
+    background-size: cover; 
+    background-position: center; 
+    filter: drop-shadow(6px 10px 1px #CCCCCC); 
+}
+
+.challenge-4-card:hover {
+    filter: drop-shadow(10px 14px 1px #848484);
+    transform:scale(1.02);
+}
+
+.challenge-5-card{
+    display: flex; 
+    background-image: url(https://github.com/MrBrandtCox/Technical-Code-Quiz/blob/main/assets/Technical-Code-Quiz-Mockup.png?raw=true); 
+    width: 150px; 
+    padding: 150px; 
+    margin: 18px 20px 70px 20px; 
+    border: 3px solid white; 
+    border-radius: 30px; 
+    background-size: cover; 
+    background-position: center; 
+    filter: drop-shadow(6px 10px 1px #CCCCCC);
+}
+
+.challenge-5-card:hover{
+    filter: drop-shadow(10px 14px 1px #848484);
+    transform:scale(1.02);
+}
+
 .future-project-card{
     display: flex;
     background-image: url(https://i.pinimg.com/736x/40/bf/50/40bf5022f099e7030c11e17e50f4b3da.jpg);
@@ -301,7 +358,7 @@ nav a button:hover{
 /* Contact me section*/
 #contact{
     padding: 40px 200px 200px 50px;
-    margin-top: 250px;
+    margin-top: 750px;
     display: flex;
     background-color: aliceblue;
 }
