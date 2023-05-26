@@ -334,6 +334,24 @@ nav a button:hover{
     transform:scale(1.02);
 }
 
+.challenge-6-card{
+    display: flex; 
+    background-image: url(Portfolio/assets/viewfinder.png); 
+    width: 150px; 
+    padding: 150px; 
+    margin: 18px 20px 70px 20px; 
+    border: 3px solid white; 
+    border-radius: 30px; 
+    background-size: cover; 
+    background-position: center; 
+    filter: drop-shadow(6px 10px 1px #CCCCCC);
+}
+
+.challenge-6-card:hover{
+    filter: drop-shadow(10px 14px 1px #848484);
+    transform:scale(1.02);
+}
+
 .future-project-card{
     display: flex;
     background-image: url(https://i.pinimg.com/736x/40/bf/50/40bf5022f099e7030c11e17e50f4b3da.jpg);
